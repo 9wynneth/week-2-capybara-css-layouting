@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+.navigation-bar
+{
+    display: inline-block;
+    background-color: lightgray;
+    width: 100%;
+    position: fixed top;
+}
+
+.three-column-header
+{
+    background-color: pink;
+    column-count: 3;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.three-column-content
+{
+    background-color:peachpuff;
+    column-count: 3;
+    padding: 30px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.capybara-opening
+{
+    text-align: left;
+    margin: top;
+}
+
+.capybara-closing
+{
+    text-align: left;
+    margin: top;
+}
+
+#capybara-habitat
+{
+    column-count: 3;
+}
+
+#capybara-diet
+{
+    column-count: 3;
+}
+
+.footer
+{
+    text-align: center;
+}
+
+#capybara-link{
+    text-decoration: none;
+}
